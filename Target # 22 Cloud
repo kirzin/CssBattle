@@ -1,0 +1,26 @@
+<div class=a></div>
+<div class=b></div>
+<style>
+  *{
+    background:#F5D6B4;
+  }
+  .a {
+    position:relative;
+    top:107;
+    left:92;
+    width: 100px;
+    height: 100px;
+    border-radius:80px;
+    box-shadow:80px -30px #D86F45;
+    background: #D86F45;
+  }
+  .b{
+    position:relative;
+    top:57;
+    left:130;
+    width: 162px;
+    height:50px;
+    border-radius:100px;
+    background: #D86F45;
+  }
+</style>
