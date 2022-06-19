@@ -1,0 +1,35 @@
+<p class=a>
+  <p class=b>
+    <p class=c>
+<style>
+  *{
+   background:#AC474B; 
+  }
+  .a{
+    position:relative;
+    top:102;
+    left:122;
+    width: 60px;
+    height: 60px;
+    background:#FFF;
+    box-shadow:0 80px #fff,80px 0 #fff,80px 80px #fff;
+  }
+  .b{
+    position:absolute;
+    top:34;
+    left:165;
+    width:20px;
+    height:20px;
+    border:solid 10px #fff;
+    border-radius:100px 100px 0px 100px;
+  }
+  .c{
+    position:absolute;
+    top:34;
+    left:195;
+    width:20px;
+    height:20px;
+    border:solid 10px #fff;
+    border-radius:100px 100px 100px 0px;
+  }
+</style>
