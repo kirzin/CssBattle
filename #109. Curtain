@@ -1,0 +1,16 @@
+<p></p>
+<style>
+  body{
+    background:#191919;
+  }
+  p{
+    position:relative;
+    top:12px;
+    left:12px;
+    width: 40px;
+    height: 40px;
+    background:#F6E59C;
+    border-radius:100px;
+    box-shadow:0 60px #F6E59C, 0 120px #F6E59C, 0 180px #F6E59C, 60px 0 #F6E59C, 120px 0 #F6E59C, 180px 0 #F6E59C,60px 60px #F6E59C, 120px 60px #F6E59C, 60px 120px #F6E59C;
+  }
+</style>
