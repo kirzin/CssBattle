@@ -1,0 +1,58 @@
+<div class=out>
+  <div class=in>
+    <div class=light></div>
+    <div class=a></div>
+    <div class=b></div>
+  </div>
+</div>
+<style>
+  body{
+    background:#000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .out{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:240px;
+    height:120px;
+    background:#37385A;
+    border-radius:20px;
+  }
+  .in{
+    width:200px;
+    height:80px;
+    background:#9897AE;
+    border-radius:10px
+  }
+  .a{
+    position:absolute;
+    top:125;
+    left:165;
+    width:10px;
+    height:50px;
+    background:#000;
+    border-radius:10px;
+    box-shadow:20px 0,40px 0,60px 0;
+  }
+  .light{
+    position:absolute;
+    top:110;
+    left:174;
+    width:52;
+    height:80;
+    background:#C0C3DB;
+    transform:skew(-15deg);
+  }.b{
+    position:absolute;
+    top:125;
+    left:115;
+    width:10;
+    height:10;
+    background:#000;
+    border-radius:100px;
+    box-shadow:0 20px,0 40px,160px 0,160px 20px,160px 40px;
+  }
+</style>
