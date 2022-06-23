@@ -1,0 +1,54 @@
+<div class=box></div>
+<div class=a></div>
+<div class=b></div>
+<div class=c></div>
+<div class=d></div>
+<style>
+  body{
+    background:#191919;
+  }
+  .box{
+    position:absolute;
+    top:114;
+    left:166;
+    width:50px;
+    height:50px;
+    border:solid #5DBCF9 10px;
+  }
+  .a{
+    position:relative;
+    top:46;
+    left:98;
+    width: 50px;
+    height: 50px;
+    border:solid #5DBCF9 10px;
+    border-radius:100px 100px 0px;
+  }
+  .b{
+    position:relative;
+    top:-24;
+    left:218;
+    width: 50px;
+    height: 50px;
+    border:solid #5DBCF9 10px;
+    border-radius:100px 100px 100px 0px;
+  }
+  .c{
+    position:relative;
+    top:26;
+    left:218;
+    width: 50px;
+    height: 50px;
+    border:solid #5DBCF9 10px;
+    border-radius:0px 100px 100px 100px;
+  }
+  .d{
+    position:relative;
+    top:-44;
+    left:98;
+    width: 50px;
+    height: 50px;
+    border:solid #5DBCF9 10px;
+    border-radius:100px 0px 100px 100px;
+  }
+</style>
