@@ -1,0 +1,27 @@
+<div class='a'></div>
+<div class='b'></div>
+
+<style>
+  body{
+    background:#191919;
+  }
+  .a{
+    position:relative;
+    top:67;
+    left:0;
+    margin:auto;
+    width:100px;
+    height:150px;
+    background:#4F77FF;
+    border-radius:80px 80px 0 0;
+  }
+  .b{
+    position:absolute;
+    top:205;
+    left:170;
+    width:80px;
+    height:20px;
+    background:#191919;
+    box-shadow:20px -24px #191919,40px -48px #191919,60px -72px #191919;
+  }
+</style>
